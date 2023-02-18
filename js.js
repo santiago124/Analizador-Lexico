@@ -1,7 +1,22 @@
-const textArea = document.getElementById('texto')
+document.addEventListener('DOMContentLoaded', () => {
 
-let palabras
+    const library = {
+        'for': 'Es una palabra reservada para un bucle',
+        '(': 'Parentisis de apertura',
+        ')': 'Parentisis de cierre',
+    }
 
-const iniciar = () => {
-    palabras = textArea.value.split(' ')
+    document.getElementById('btnText', analyzer)
+
+    const analyzer = () => {
+        const textArea = document.getElementById('texto')
+
+    }
+
+}, false)
+
+
+/*
+for(i = 0; i < 10; i++){
 }
+*/
