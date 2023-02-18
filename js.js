@@ -4,4 +4,6 @@ let palabras
 
 const iniciar = () => {
     palabras = textArea.value.split(' ')
+
+    console.log(palabras)
 }

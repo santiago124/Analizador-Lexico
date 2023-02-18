@@ -74,4 +74,5 @@ h1{
     height: 65vh;
     background-color: white;
     border-radius: 10px;
+    transform: scale(1.01);
 }
