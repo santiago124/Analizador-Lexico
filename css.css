@@ -1,17 +1,17 @@
-body{
+body {
     background-color: #222;
 }
 
-*{
+* {
     font-family: 'Roboto', sans-serif;
 }
 
-h1{
+h1 {
     color: white;
     text-align: center;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@ h1{
     height: 86vh;
 }
 
-.container-btn{
+.container-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,7 +29,7 @@ h1{
     height: 100px;
 }
 
-.texto-archivo{
+.texto-archivo {
     display: flex;
     padding: 10px;
     align-items: center;
@@ -41,25 +41,37 @@ h1{
     background-color: #313131;
 }
 
-.btn-secondary{
+.btn-secondary {
     padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(126, 126, 126);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
 }
 
-#texto{
+.btn-secondary:hover {
+    background-color: rgb(63, 63, 63);
+    transform: scale(1.1);
+}
+
+#texto {
     resize: none;
     width: 80%;
     height: 65vh;
     border-radius: 10px;
 }
 
-.container-sub{
+.container-sub {
     width: 100%;
     height: 100px;
     text-align: center;
     color: white;
 }
 
-.Result{
+.Result {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,7 +81,7 @@ h1{
     background-color: #313131;
 }
 
-.informacion{
+.informacion {
     width: 90%;
     height: 65vh;
     background-color: white;
